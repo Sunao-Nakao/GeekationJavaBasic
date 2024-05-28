@@ -3,10 +3,10 @@ package basicSyntax;
 public class ComparisonLogicalOperators {
 
 	public static void main(String[] args) {
-		int a = 10 ;
-		int b = 9 ;
+		int a = 10;
+		int b = 9;
 		
-		boolean isGreaterA = a > b ;
+		boolean isGreaterA = a > b;
 		System.out.println(isGreaterA);
 		
 		boolean isSunny = true;
@@ -19,8 +19,8 @@ public class ComparisonLogicalOperators {
 		}
 		
 		
-		int x = 1 ;
-		int y = 10 ;
+		int x = 1;
+		int y = 10;
 		boolean evenNumber = (y % 2 == 0);
 		boolean andResultA = (x >= 0 && evenNumber);
 		System.out.println(andResultA);
